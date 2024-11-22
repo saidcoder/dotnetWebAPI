@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using api.Dtos.Comment;
 using api.Dtos.Stock;
 using api.Models;
 using AutoMapper;
@@ -15,6 +16,9 @@ namespace api.Mappers
         {
             CreateMap<Stock, StockDto>().ReverseMap();
             CreateMap<Stock, CreateStockRequestDto>().ReverseMap();
+
+            CreateMap<Comment, CommentDto>().ReverseMap();
+            // CreateMap<Stock, CreateStockRequestDto>().ReverseMap();
         }
 
         // public static StockDto ToStockDto(this Stock stockModel)

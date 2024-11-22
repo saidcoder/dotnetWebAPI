@@ -14,6 +14,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 builder.Services.AddScoped<IStockRepository,StockRepository>();
+builder.Services.AddScoped<ICommentRepository,CommentRepository>();
 
 builder.Services.AddControllers();
 builder.Services.AddDbContext<ApplicationDBContext>(option => {

@@ -17,13 +17,11 @@ namespace api.Controller
     [ApiController]
     public class StockController : ControllerBase
     {
-        private readonly ApplicationDBContext _context;
         private readonly IMapper _mapper;
         private readonly IStockRepository _stockRepo;
 
-        public StockController(ApplicationDBContext context, IMapper mapper, IStockRepository stockRepo)
+        public StockController( IMapper mapper, IStockRepository stockRepo)
         {
-            _context = context;
             _mapper = mapper;
             _stockRepo = stockRepo;
         }
