@@ -134,3 +134,4 @@ D:\My Self Work\dotnetWebApi\api\bin\Debug\net8.0\runtimes\win-x64\native\e_sqli
 D:\My Self Work\dotnetWebApi\api\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 D:\My Self Work\dotnetWebApi\api\bin\Debug\net8.0\AutoMapper.dll
 D:\My Self Work\dotnetWebApi\api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\My Self Work\dotnetWebApi\api\obj\Debug\net8.0\api.sourcelink.json
